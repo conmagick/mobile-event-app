@@ -1,15 +1,16 @@
 {
   "name": "mobile-event-app",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "version": "0.0.1-alpha",
+  "author": "Greg Fennell <greg@conmagick.com>",
+  "homepage": "http://www.conmagick.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "release": "standard-version"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
